@@ -6,8 +6,7 @@ export default function Movies(props) {
  // Uses map() to loop through each movie in the movies array 
   return props.movies.map(
     (movie) => {
-      // Displays each movie using the MovieItem component
-        // Passes the movie details and uses imdbID as a unique key
+      // Shows each movie and gives it a unique key
         return <MovieItem mymovie={movie} key={movie.imdbID}></MovieItem>
     }
   )
