@@ -11,7 +11,7 @@ export default function MovieItem(props){
             <p>{props.mymovie.Year}</p>
             <img src={props.mymovie.Poster}></img>
             
-// Displays the movie information in a Bootstrap card
+            {//* Displays the movie information in a Bootstrap card
              <Card style={{ width: '200px', height: '200px' }}>
       <Card.Img variant="top" src={props.mymovie.Poster} />
    {/* Adds the movie title and year inside the card */}
